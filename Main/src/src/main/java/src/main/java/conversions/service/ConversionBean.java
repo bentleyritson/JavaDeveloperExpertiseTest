@@ -1,4 +1,4 @@
-package service;
+package conversions.service;
 
 import conversions.model.Metric;
 import org.springframework.beans.factory.annotation.Autowired;

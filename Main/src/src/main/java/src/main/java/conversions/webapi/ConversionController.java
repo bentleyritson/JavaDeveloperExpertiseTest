@@ -2,11 +2,10 @@ package conversions.webapi;
 
 import conversions.model.Metric;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.configurationprocessor.json.JSONObject;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.ConversionBean;
+import conversions.service.ConversionBean;
 
 //Controller for mapping requests for the converter.
 @RestController

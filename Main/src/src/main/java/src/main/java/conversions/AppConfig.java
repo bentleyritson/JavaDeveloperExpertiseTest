@@ -1,9 +1,8 @@
 package conversions;
 
-import conversions.model.Metric;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import service.ConversionBean;
+import conversions.service.ConversionBean;
 
 @Configuration
 public class AppConfig {
