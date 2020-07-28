@@ -3,13 +3,27 @@ package consoleRoulette.model;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component("Player")
+@Component()
 public class Player {
 
-    String name;
-    Integer bet;
-    float amount;
-    float winnings;
+    String name = "";
+    String bet = "";
+    float amount = 0.0f;
+    float winnings = 0.0f;
+    String winLoose = " ";
+
+
+
+
+    public String getWinLoose() {
+        return winLoose;
+    }
+
+    public void setWinLoose(String winLoose) {
+        this.winLoose = winLoose;
+    }
+
+
 
     public String getName() {
         return name;
@@ -19,11 +33,11 @@ public class Player {
         this.name = name;
     }
 
-    public Integer getBet() {
+    public String getBet() {
         return bet;
     }
 
-    public void setBet(Integer bet) {
+    public void setBet(String bet) {
         this.bet = bet;
     }
 

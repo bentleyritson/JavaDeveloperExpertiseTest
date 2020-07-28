@@ -12,9 +12,10 @@ public class AppConfig {
 
     //Bean instantiation for the Conversion functionality.
     @Bean
-    @Primary
-    public RouletteImplementation gameStarter(){
+    public RouletteImplementation game(){
         return new RouletteImplementation();
     }
 
+    /*@Bean
+    public Player newPlayer(){return new Player();}*/
 }

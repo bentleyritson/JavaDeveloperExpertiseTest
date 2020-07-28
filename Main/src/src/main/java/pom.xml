@@ -69,7 +69,11 @@
 			<artifactId>spring-test</artifactId>
 			<version>5.0.4.RELEASE</version>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy</artifactId>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>

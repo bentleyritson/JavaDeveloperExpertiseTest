@@ -14,7 +14,9 @@ public class ConsoleRoulette {
     public static void main(String[] args) throws IOException {
         SpringApplication.run(ConsoleRoulette.class, args);
 
-        RouletteImplementation newgame = new RouletteImplementation();
-        newgame.getInput();
+        RouletteImplementation newGame = new RouletteImplementation();
+        newGame.getInput();
+        newGame.game();
+        //newGame.inputOutput();                    //Optional Question method call
     }
 }
