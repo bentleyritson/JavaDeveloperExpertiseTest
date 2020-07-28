@@ -1,0 +1,13 @@
+Winning Number is : 1
+Player          Bet             Outcome         Winnings       
+---------------------------------------------------------------
+
+Tikki_Monkeyruns 0 5               LOSE            0.0            
+
+Barbararuns 1   5               LOSE            0.0            
+
+Joeruns 2       5               LOSE            0.0            
+
+Nicki_Minajruns 3 5               LOSE            0.0            
+
+Tigaruns 4      5               LOSE            0.0            
